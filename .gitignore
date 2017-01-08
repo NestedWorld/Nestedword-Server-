@@ -1,0 +1,6 @@
+# NodeJS stuff
+/node_modules
+
+# Misc stuff
+.*
+!.gitignore
