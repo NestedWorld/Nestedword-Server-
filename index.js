@@ -16,6 +16,6 @@ io.on('connection', function(socket){
   });
 });
 
-http.listen(4241, function(){
-  console.log('listening on *:4241');
+http.listen(4241, '127.0.0.1', function(){
+  console.log('listening on 127.0.0.1:4241');
 });
